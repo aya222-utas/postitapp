@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(cors())
 dotenv.config()
 
-const constr = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@postitcluster.eehqzgh.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority&appName=PostITCluster`;
+const constr = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@postitcluster.xtpmwfg.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority&appName=PostITCluster`;
 mongoose.connect(constr)
 //Express route to handle the like and dislike
 
